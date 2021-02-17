@@ -1,0 +1,8 @@
+type Store @model {
+  id: ID!
+  name: String!
+  email: String!
+  owner: String!
+  description: String
+  image: String
+}
